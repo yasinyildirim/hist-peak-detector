@@ -20,8 +20,12 @@ Fig.[img1-b](images/hist-1.jpg). Dominant peaks can be mixed with noise
 depending on input image and its important for a proposed method to be
 able to identify the dominant peaks in a robust and stable fashion.
 
-<a href="images/img-1.jpg" target="_blank"><img src="images/img-1.jpg" 
-alt="Figure 1: Input image and its histogram: 3 dominant peaks are pointed as a desired output." width="240" height="180" border="10" /></a>
+<a href="images/img-1.jpg" target="_blank">
+<figure>
+  <img src="images/img-1.jpg" alt="Fig. 1-a" width="240" height="180" border="10"/>
+  <img src="images/hist-1.jpg" alt="Fig. 1-b" width="240" height="180" border="10"/>
+  <figcaption>Figure 1: Input image and its histogram: 3 dominant peaks are pointed as a desired output.</figcaption>
+</figure></a>
 
 Related approaches as a solution
 --------------------------------
