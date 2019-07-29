@@ -16,7 +16,7 @@ Problem definition
 For an histogram of an image like the given in
 Fig.[img1-a](images/img-1.jpg), the problem is to find the dominant peaks
 within the histogram as shown in
-Fig.[fig:img1-b](images/img-1.jpg). Dominant peaks can be mixed with noise
+Fig.[img1-b](images/hist-1.jpg). Dominant peaks can be mixed with noise
 depending on input image and its important for a proposed method to be
 able to identify the dominant peaks in a robust and stable fashion.
 
@@ -114,13 +114,13 @@ the low range and they lay on a linear model like a fitted line with
 fixed margin. However, dominant peaks have much higher barcode values in
 which they don't fit the other observations, like outliers. The example
 histogram and found barcodes are shown in
-[\[fig:img1\]](#fig:img1){reference-type="ref" reference="fig:img1"}, in
+[img2](images/Figure_2.png), in
 which barcode values are displayed with red points and weak barcode
 values are colored blue.
 
 ![ Red channel histogram of a sample image: Accepted dominant peaks are
 shown as red points wheres the rejected peak candidates are shown as
-blue points.[]{label="fig:img2"}](Figure_2.png){#fig:img2 width="90mm"}
+blue points.[]{label="fig:img2"}](images/Figure_2.png){#fig:img2 width="90mm"}
 
 The median is a robust statistic that it is not influenced by outliers.
 **Median Absolute Deviation** (MAD) is used in order to detect outliers.
