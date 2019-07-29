@@ -1,8 +1,6 @@
 ---
-author:
-- Yasin Yıldırım
-bibliography:
-- 'docs/latex/M335.bib'
+author: Yasin Yıldırım
+bibliography: 'docs/latex/M335.bib'
 date: July 2019
 title: Technical Report
 ---
@@ -14,16 +12,16 @@ Problem definition
 ------------------
 
 For an histogram of an image like the given in
-Fig.[img1-a](images/img-1.jpg), the problem is to find the dominant peaks
+Fig.[1-a](images/img-1.jpg), the problem is to find the dominant peaks
 within the histogram as shown in
-Fig.[img1-b](images/hist-1.jpg). Dominant peaks can be mixed with noise
+Fig.[1-b](images/hist-1.jpg). Dominant peaks can be mixed with noise
 depending on input image and its important for a proposed method to be
 able to identify the dominant peaks in a robust and stable fashion.
 
 <a href="images/img-1.jpg" target="_blank">
 <figure>
-  <img src="images/img-1.jpg" alt="Fig. 1-a" width="240" height="180" border="10"/>
-  <img src="images/hist-1.jpg" alt="Fig. 1-b" width="240" height="180" border="10"/>
+  <img src="images/img-1.jpg" alt="Fig. 1-a" height="240" border="10"/>
+  <img src="images/hist-1.jpg" alt="Fig. 1-b" height="240" border="10"/>
   <br>
   <figcaption>Figure 1: Input image and its histogram: 3 dominant peaks are pointed as a desired output.</figcaption>
 </figure></a>
@@ -122,13 +120,13 @@ the low range and they lay on a linear model like a fitted line with
 fixed margin. However, dominant peaks have much higher barcode values in
 which they don't fit the other observations, like outliers. The example
 histogram and found barcodes are shown in
-[img2](images/Figure_2.png), in
+Fig.[2](images/Figure_2.png), in
 which barcode values are displayed with red points and weak barcode
 values are colored blue.
 
 <a href="images/Figure_2.png" target="_blank">
 <figure>
-  <img src="images/Figure_2.png" alt="Fig. 2" width="480" height="360" border="10"/>
+  <img src="images/Figure_2.png" alt="Fig. 2" height="360" border="10"/>
   <br>
   <figcaption>Figure 2: Red channel histogram of a sample image: Accepted dominant peaks are
 shown as red points wheres the rejected peak candidates are shown as
