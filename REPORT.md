@@ -2,7 +2,7 @@
 author:
 - Yasin Yıldırım
 bibliography:
-- 'M335.bib'
+- 'docs/latex/M335.bib'
 date: July 2019
 title: Technical Report
 ---
