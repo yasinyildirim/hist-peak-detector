@@ -24,6 +24,7 @@ able to identify the dominant peaks in a robust and stable fashion.
 <figure>
   <img src="images/img-1.jpg" alt="Fig. 1-a" width="240" height="180" border="10"/>
   <img src="images/hist-1.jpg" alt="Fig. 1-b" width="240" height="180" border="10"/>
+  <br>
   <figcaption>Figure 1: Input image and its histogram: 3 dominant peaks are pointed as a desired output.</figcaption>
 </figure></a>
 
@@ -125,9 +126,14 @@ histogram and found barcodes are shown in
 which barcode values are displayed with red points and weak barcode
 values are colored blue.
 
-![ Red channel histogram of a sample image: Accepted dominant peaks are
+<a href="images/Figure_2.png" target="_blank">
+<figure>
+  <img src="images/Figure_2.png" alt="Fig. 2" width="480" height="360" border="10"/>
+  <br>
+  <figcaption>Figure 2: Red channel histogram of a sample image: Accepted dominant peaks are
 shown as red points wheres the rejected peak candidates are shown as
-blue points.[]{label="fig:img2"}](images/Figure_2.png){#fig:img2 width="90mm"}
+blue points.</figcaption>
+</figure></a>
 
 The median is a robust statistic that it is not influenced by outliers.
 **Median Absolute Deviation** (MAD) is used in order to detect outliers.
