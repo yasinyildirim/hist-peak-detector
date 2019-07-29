@@ -14,10 +14,10 @@ Problem definition
 ------------------
 
 For an histogram of an image like the given in
-Fig.[\[fig:img1-a\]](#fig:img1-a){reference-type="ref"
+Fig.[\[fig:img1-a\]](images/img-1.jpg){reference-type="ref"
 reference="fig:img1-a"}, the problem is to find the dominant peaks
 within the histogram as shown in
-Fig.[\[fig:img1-b\]](#fig:img1-b){reference-type="ref"
+Fig.[\[fig:img1-b\]](images/img-1.jpg){reference-type="ref"
 reference="fig:img1-b"}. Dominant peaks can be mixed with noise
 depending on input image and its important for a proposed method to be
 able to identify the dominant peaks in a robust and stable fashion.
